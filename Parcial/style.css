@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #f0f0f5;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: #f8f9fa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: fantasy; 
+    font-size: 20px;
+    font-weight: 10;
+}
+
+.navbar a:hover {
+    background: #d3a542;
+}
+
+.header {
+    height: 80vh !important;
+    background: url(img/propia.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: #152350;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #0a0a0a;
+    padding: 0 100px;
+}
+
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.sau {
+    padding: 100px;
+    background: #f3eaea
+}
+.about {
+    background: #d3a542;
+}
+
+
